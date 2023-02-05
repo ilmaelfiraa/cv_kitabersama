@@ -1,0 +1,156 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Variable Color */
+:root {
+    --primary-color: #84BC34;
+    --black-color: #161616;
+    --gray-color: #313131;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a.text-white {
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+/* Button */
+.btn.btn-search {
+    background-color: var(--primary-color) !important;
+    border-radius: 5px;
+    border: 0;
+    width: 75px;
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+}
+
+.btn.btn-warning {
+    color: white;
+}
+
+
+/* Form */
+.form-control:focus {
+    border-color: var(--primary-color);
+}
+
+
+/* Tentang Kami */
+section.tentang_kami {
+    margin-top: 50px;
+}
+
+section.tentang_kami p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray-color);
+    text-align: justify;
+    margin-top: 76px;
+}
+
+section.tentang_kami img {
+    width: 527px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--black-color);
+    color: white;
+    margin-top: 8rem;
+    padding: 50px 0 30px;
+}
+
+footer .footer_col h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 25px;
+    color: var(--white-color);
+}
+
+footer .footer_col h5 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+footer .footer_col i {
+    width: 24px;
+}
+
+footer .footer_col li {
+    margin-bottom: 6px;
+}
+
+footer .footer_col li a {
+    font-weight: 300;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+footer .footer_col li a:hover {
+    font-weight: 400;
+}
+
+footer .footer_col .footer_icon>a>i {
+    text-align: center;
+    margin-top: 8px;
+}
+
+footer .footer_col .footer_icon>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px white;
+    margin: 0 5px;
+    color: white;
+}
+
+footer .footer_col .footer_icon>a:hover,
+footer .footer_col .footer_icon>a:focus,
+footer .footer_col .footer_icon>a:active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer .copyright {
+    margin-top: 2rem;
+}
+
+footer .copyright h5 {
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    margin-top: 5rem;
+}
+
+footer .copyright a h5 {
+    color: white;
+}
+
+footer .copyright a {
+    text-decoration: none;
+}
